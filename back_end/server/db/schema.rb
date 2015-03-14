@@ -11,9 +11,9 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150314160643) do
+ActiveRecord::Schema.define(version: 20150314170330) do
 
-  create_table "matches", force: :cascade do |t|
+  create_table "words", force: :cascade do |t|
     t.string   "section"
     t.string   "level"
     t.string   "contend"
