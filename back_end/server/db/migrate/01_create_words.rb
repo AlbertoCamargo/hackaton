@@ -4,7 +4,8 @@ class CreateWords < ActiveRecord::Migration
       t.string :section
       t.string :level
       t.string :contend
-
+      t.string :path
+      
       t.timestamps null: false
     end
   end

@@ -1,10 +1,11 @@
 class MatchsController < ApplicationController
   def index
-    @match = Match.all.sample
+    @word = Word.all.sample
+    #render json: @word
   end
 
   def show
-  end
+  end 
 
   def new
   end
