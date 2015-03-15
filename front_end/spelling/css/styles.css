@@ -1,0 +1,14 @@
+#background {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+#word {
+  margin: 630px;
+  margin-left: 0px;
+}
+#canvas {
+  position: absolute;
+  left: 280px;
+  bottom: 100px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="css/style_spelling.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+</head>
+<body>
+<!--  modal -->
+ <a href="#" class="btn btn-lg btn-success" data-toggle="modal" data-target="#basicModal" style="display: none">Click to open Modal</a>
+ <div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true" backdrop="false">
+    <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel">You win</h4>
+          </div>
+          <div class="modal-body">
+              <canvas id = "consequences"></canvas>
+          </div>
+          <div class="modal-footer">
+          <a type="button" class="btn btn-primary" href="spelling2.html">Next level</a>
+        </div>
+    </div>
+  </div>
+</div>
+<!--  end modal -->
+
+<img id="background" src="images/background.png">
+<div id="word">
+  <div class="scramble" data-unscrambled="SADNESS"></div>  
+</div>
+<canvas id="canvas"></canvas>
+<img id="image" style="display: none">
+<script type="text/javascript" src="JavaScript/jquery-1.11.2.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="JavaScript/classes.js"></script>
+<script type="text/javascript" src="JavaScript/mode_spelling.js"></script>
+<script type="text/javascript" src= "JavaScript/index.js"></script>
+</body>
+</html>
