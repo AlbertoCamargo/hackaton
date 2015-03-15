@@ -10,7 +10,7 @@ function sprite(image, width, height, state) {
   this.height = height;
   this.paint = function(context) {
     context.drawImage(this.image, this.current_sprite_x, this.current_sprite_y, this.width, this.height, 0, 0, this.width, this.height);
-    if(this.current_sprite_x >= this.image.width - width) {
+    if(this.current_sprite_x >= this.image.width - (width + 10)) {
       this.current_sprite_x = 0;
     } else {
       this.current_sprite_x += this.width;

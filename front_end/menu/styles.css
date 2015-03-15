@@ -1,0 +1,29 @@
+#L {
+  position: relative;
+  z-index:2; 
+  display: responsive;
+
+}
+
+#start {
+  position:absolute;
+  top: 200px;
+  z-index: 2;
+  width:300px;
+  height:80px;
+  color: blue;
+  border-radius:100%;
+  background-color: blue;
+  font-family: 'arial black';
+  background: #267466;
+  text-shadow: 0 2px 2px rgba(122,17,8,.8);
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 20px;
+}
+
+body{
+  
+}
+
+

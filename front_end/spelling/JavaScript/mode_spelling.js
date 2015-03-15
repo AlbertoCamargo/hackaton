@@ -1,10 +1,11 @@
+/*
 // TODO: Changes by url
 src = 'images/images.png';
 image = document.getElementById('image');
 image.src = src;
 canvas = document.getElementById('canvas')
-canvas.width = window.innerWidth - 600;
-canvas.height = window.innerHeight - 200;
+canvas.width = 300;
+canvas.height = 300;
 context = canvas.getContext("2d");
 // animations
 var state_animation;
@@ -18,3 +19,4 @@ function repeat() {
     animations.paint(context);
   }, 200);
 }
+*/
